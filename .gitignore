@@ -1,1 +1,5 @@
 /target/
+/org/fairsim/extern/jtransforms/*.class
+/external/*.jar
+/*.jar
+/org/fairsim/git-version-jtransforms.txt
