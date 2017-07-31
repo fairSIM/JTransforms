@@ -37,8 +37,8 @@ doc/index.html : $(wildcard org/fairsim/*/*.java)
 	-subpackages org.fairsim -exclude org.fairsim.extern.jtransforms 
 
 clean :
-	$(RM) fairSIM_*.jar fairSIM_*.tar.bz2
-	$(RM) org/fairsim/extern/jtransform/*.class org/fairsim/git-version-jtransforms.txt
+	$(RM) jtransforms_fairSIM_*.jar jtransforms_fairSIM_*.tar.bz2
+	$(RM) org/fairsim/extern/jtransforms/*.class org/fairsim/git-version-jtransforms.txt
 	$(RM) -r doc/*
 	$(RM) -rf target
 
